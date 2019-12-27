@@ -24,4 +24,4 @@ urlmr = "https://en.wikipedia.org/wiki/List_of_filename_extensions_(M%E2%80%93R)
 urlsz = "https://en.wikipedia.org/wiki/List_of_filename_extensions_(S%E2%80%93Z)"
 ext=getExtList(urlsym, urlae, urlfl, urlmr, urlsz)
 ext.sort()
-print(type(ext),len(ext),ext[3144])
+print(type(ext),len(ext))
